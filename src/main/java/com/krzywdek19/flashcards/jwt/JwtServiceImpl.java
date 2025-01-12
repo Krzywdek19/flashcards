@@ -71,7 +71,7 @@ public class JwtServiceImpl implements JwtService {
     }
 
     @Override
-    public long getExpirationTime(String token) {
+    public long getExpirationTime() {
         return jwtExpiration;
     }
 
